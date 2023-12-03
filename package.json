@@ -1,0 +1,19 @@
+{
+  "name": "decoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/decoder.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "nodemon": "^3.0.2",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.2"
+  }
+}
