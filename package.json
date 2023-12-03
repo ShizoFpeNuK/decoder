@@ -12,8 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.2",
+    "@types/openpgp": "^4.4.22",
     "nodemon": "^3.0.2",
     "tsx": "^4.6.2",
     "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "crc": "^4.3.2",
+    "gpg-ts": "^0.7.0",
+    "openpgp": "^5.11.0"
   }
 }
