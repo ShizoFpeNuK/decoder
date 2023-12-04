@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "es6",
+		"target": "ES2018",
 		"module": "NodeNext",
 		"allowJs": false,
 		"alwaysStrict": true,
@@ -18,7 +18,9 @@
 		"isolatedModules": true,
 		"sourceMap": true,
 		"rootDir": "./src",
-		"outDir": "./dist"
+		"outDir": "./dist",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
 	},
 	"include": ["src/**/*"],
 	"exclude": ["node_modules"],

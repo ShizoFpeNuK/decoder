@@ -4,9 +4,9 @@
 # Папка преобразования TS в JS
 /dist
 
-# Папка с зашифрованными файлами
+# Папки и файлы для работы программы
 /files
 /outputFiles
 /signs
-target.txt.gpg
+/target
 pub_bbso_23.key
